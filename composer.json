@@ -1,0 +1,8 @@
+{
+    "config": {
+        "vendor-dir": "plugin/vendor"
+    },
+    "require": {
+        "cullylarson/phugly": "^1.5"
+    }
+}

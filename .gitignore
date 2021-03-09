@@ -1,0 +1,8 @@
+**/.DS_Store
+node_modules
+npm-log.log
+/.idea
+/.vscode
+
+plugin/vendor
+/trash

@@ -1,0 +1,14 @@
+{
+    "scripts": {},
+    "dependencies": {
+        "@cullylarson/f": "^0.1.2",
+        "imagemin": "^7.0.1",
+        "imagemin-cli": "^6.0.0",
+        "imagemin-giflossy": "^5.1.10",
+        "imagemin-jpegtran": "^7.0.0",
+        "imagemin-mozjpeg": "^9.0.0",
+        "imagemin-pngquant": "^9.0.2",
+        "imagemin-svgo": "^9.0.0",
+        "yargs": "^16.2.0"
+    }
+}
