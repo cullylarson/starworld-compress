@@ -2,7 +2,7 @@
    /**
    * Plugin Name: Starworld Compress
    * Description: Lossfully (but not noticeably) compresses images uploaded to Wordpress.
-   * Version: 1.0.0
+   * Version: 1.0.1
    * Author: Cully Larson (MAC)
    */
 
