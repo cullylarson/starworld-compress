@@ -9,6 +9,7 @@
         "imagemin-mozjpeg": "^9.0.0",
         "imagemin-pngquant": "^9.0.2",
         "imagemin-svgo": "^9.0.0",
+        "svgo": "^2.2.2",
         "yargs": "^16.2.0"
     }
 }

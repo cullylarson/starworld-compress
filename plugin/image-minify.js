@@ -7,6 +7,7 @@ const ImageminMozjpeg = require('imagemin-mozjpeg')
 const ImageminPngquant = require('imagemin-pngquant')
 const ImageminGiflossy = require('imagemin-giflossy')
 const ImageminSvgo = require('imagemin-svgo')
+const {extendDefaultPlugins} = require('svgo')
 
 const argv = require('yargs')
     .usage('Usage: $0 --in=image-01.png --out=build')
@@ -30,7 +31,12 @@ const plugins = [
         speed: 1,
         dithering: 1,
     }),
-    ImageminSvgo(),
+    ImageminSvgo({
+        plugins: extendDefaultPlugins([
+            // don't remove the viewBox attribute
+            {name: 'removeViewBox', active: false}
+        ])
+    }),
     ImageminGiflossy({
         optimizationLevel: 3,
         lossy: 120,
